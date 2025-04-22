@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поддержка матерей</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Навигационная панель -->
+  <nav class="bg-pink-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Поддержка Матерей</h1>
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="hover:text-pink-300">Главная</a></li>
+        <li><a href="#resources" class="hover:text-pink-300">Ресурсы</a></li>
+        <li><a href="#tips" class="hover:text-pink-300">Советы</a></li>
+        <li><a href="#contact" class="hover:text-pink-300">Контакты</a></li>
+        <li><a href="#onas" class="hover:text-pink-300">О нас</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Главный заголовок -->
+  <header id="home" class="bg-pink-700 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Добро пожаловать!</h2>
+    <p class="text-lg">Здесь вы найдете поддержку и полезные советы для будущих и молодых мам.</p>
+  </header>
+
+
+
+
+  <!-- Секция "Ресурсы" -->
+  <section id="resources" class="container mx-auto my-10 px-4">
+    <h3 class="text-3xl font-bold text-center mb-8">Полезные ресурсы</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="kol.jpg" alt="" />
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Календарь здоровья</h5>
+            </a>
+            <p id="text" class="mb-3 font-normal text-gray-700 dark:text-gray-400"><a>✔️ График посещений врача</a> 
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Расписание прививок по возрасту</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Напоминания о медосмотрах</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Статьи по профилактике болезней</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Персональные рекомендации</p>
+            </p>
+            <a href="#" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Посмотреть
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+        </div>
+      </div>
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="reb.jpg" alt="" />
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Курс для новоиспечённых отцов</h5>
+            </a>
+            <p id="text" class="mb-3 font-normal text-gray-700 dark:text-gray-400"><a>✔️ Как правильно держать и пеленать малыша</a> 
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Основы гигиены: купание, подмывание, уход за кожей</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Смена подгузников: пошаговая инструкция</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Как понять, что ребёнок голоден или сыт</p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Персональные рекомендации</p>
+            </p>
+            <a href="#" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Посмотреть
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+        </div>
+      </div>
+
+
+  <!-- Секция "Советы" -->
+
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+          <img class="rounded-t-lg" src="Forym.jpg" alt="" />
+      </a>
+      <div class="p-5">
+          <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Форум</h5>
+          </a>
+          <p id="text" class="mb-3 font-normal text-gray-700 dark:text-gray-400"><a>✔️ Регулярно посещайте врача для контроля здоровья вас и ребенка</a> 
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Соблюдайте правильное питание и пейте достаточно воды</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Создайте комфортную среду для себя и малыша</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">✔️ Не бойтесь обращаться за помощью к близким или специалистам</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Персональные рекомендации</p>
+          </p>
+          <a href="#" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Посмотреть
+              <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-center text-pink-700 mb-8">Календарь беременности</h1>
+    
+    <div class="flex flex-col md:flex-row gap-6">
+        <!-- Боковая панель с общей информацией -->
+        <div class="w-full md:w-1/4 bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-pink-600 mb-3">Текущая информация</h2>
+                <div class="space-y-2">
+                    <div class="flex items-center">
+                        <i class="fas fa-calendar-alt text-pink-500 mr-2"></i>
+                        <span id="current-week" class="font-medium">Неделя: 1</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-baby text-pink-500 mr-2"></i>
+                        <span id="current-trimester" class="font-medium">Триместр: 1</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-ruler-vertical text-pink-500 mr-2"></i>
+                        <span id="baby-size" class="font-medium">Размер малыша: 0.1 см</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mb-6">
+                <h2 class="text-xl font-semibold text-pink-600 mb-3">Общие рекомендации</h2>
+                <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                    <li>Принимайте фолиевую кислоту</li>
+                    <li>Избегайте стрессов</li>
+                    <li>Пейте больше воды</li>
+                    <li>Соблюдайте режим дня</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h2 class="text-xl font-semibold text-pink-600 mb-3">Важные даты</h2>
+                <div class="space-y-2">
+                    <div class="bg-pink-100 p-3 rounded-lg">
+                        <div class="font-medium">Первый скрининг</div>
+                        <div class="text-sm text-gray-600">11-13 недель</div>
+                    </div>
+                    <div class="bg-pink-100 p-3 rounded-lg">
+                        <div class="font-medium">Второй скрининг</div>
+                        <div class="text-sm text-gray-600">18-21 неделя</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Основной календарь -->
+        <div class="w-full md:w-3/4">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-2xl font-semibold text-pink-700">Ежедневные рекомендации</h2>
+                    <div class="flex items-center space-x-4">
+                        <button id="prev-day" class="p-2 rounded-full bg-pink-100 text-pink-700 hover:bg-pink-200">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <span id="current-date" class="font-medium">День 1, 1 неделя</span>
+                        <button id="next-day" class="p-2 rounded-full bg-pink-100 text-pink-700 hover:bg-pink-200">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Блок с развитием малыша -->
+                    <div class="bg-pink-50 p-5 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-pink-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-baby text-pink-600"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-pink-700">Развитие малыша</h3>
+                        </div>
+                        <p id="baby-development" class="text-gray-700">
+                            Сегодня происходит оплодотворение яйцеклетки. Ваш малыш пока представляет собой всего лишь одну клетку - зиготу.
+                        </p>
+                    </div>
+                    
+                    <!-- Блок с рекомендациями для мамы -->
+                    <div class="bg-blue-50 p-5 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-heart text-blue-600"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-blue-700">Для мамы</h3>
+                        </div>
+                        <p id="mom-tips" class="text-gray-700">
+                            Начните принимать фолиевую кислоту (400 мкг в день). Избегайте алкоголя, курения и стрессов.
+                        </p>
+                    </div>
+                    
+                    <!-- Блок с полезными советами -->
+                    <div class="bg-green-50 p-5 rounded-lg">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-green-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-lightbulb text-green-600"></i>
+                            </div>
+                            <h3 class="text-lg font-semibold text-green-700">Полезный совет</h3>
+                        </div>
+                        <p id="useful-tip" class="text-gray-700">
+                            Заведите дневник беременности, где будете записывать свои ощущения и изменения.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Календарь по неделям -->
+                <div class="mt-8">
+                    <h3 class="text-xl font-semibold text-pink-700 mb-4">Весь срок беременности</h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3">
+                        <!-- Здесь будут недели -->
+                        <!-- Пример одной недели -->
+                        <div class="bg-pink-100 p-3 rounded-lg text-center cursor-pointer hover:bg-pink-200 transition week-item" data-week="1">
+                            <div class="font-medium">Неделя 1</div>
+                            <div class="text-sm text-gray-600">День 1-7</div>
+                        </div>
+                        <!-- Остальные недели будут добавляться через JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Данные для календаря (упрощенный вариант)
+    const pregnancyData = {
+        1: {
+            babyDevelopment: "Сегодня происходит оплодотворение яйцеклетки. Ваш малыш пока представляет собой всего лишь одну клетку - зиготу.",
+            momTips: "Начните принимать фолиевую кислоту (400 мкг в день). Избегайте алкоголя, курения и стрессов.",
+            usefulTip: "Заведите дневник беременности, где будете записывать свои ощущения и изменения.",
+            babySize: "0.1 см"
+        },
+        2: {
+            babyDevelopment: "Зигота делится и движется по маточной трубе к матке. К концу недели она превращается в бластоцисту.",
+            momTips: "Продолжайте прием фолиевой кислоты. Избегайте рентгеновских исследований и подъема тяжестей.",
+            usefulTip: "Начните принимать пренатальные витамины после консультации с врачом.",
+            babySize: "0.1-0.2 см"
+        },
+        3: {
+            babyDevelopment: "Бластоциста имплантируется в стенку матки. Начинается формирование плаценты и пуповины.",
+            momTips: "Обратите внимание на возможные признаки беременности: усталость, болезненность груди, легкую тошноту.",
+            usefulTip: "Если вы еще не бросили курить, сейчас самое время это сделать.",
+            babySize: "0.2-0.3 см"
+        },
+        // Добавьте данные для остальных дней...
+    };
+
+    // Текущий день беременности
+    let currentDay = 1;
+    const totalDays = 280; // Средняя продолжительность беременности
+
+    // Функция для обновления интерфейса
+    function updateUI(day) {
+        const week = Math.ceil(day / 7);
+        const trimester = week <= 12 ? 1 : week <= 27 ? 2 : 3;
+        
+        // Обновляем основную информацию
+        document.getElementById('current-date').textContent = `День ${day}, ${week} неделя`;
+        document.getElementById('current-week').textContent = `Неделя: ${week}`;
+        document.getElementById('current-trimester').textContent = `Триместр: ${trimester}`;
+        
+        // Обновляем информацию о развитии
+        const data = pregnancyData[week] || pregnancyData[1];
+        document.getElementById('baby-development').textContent = data.babyDevelopment;
+        document.getElementById('mom-tips').textContent = data.momTips;
+        document.getElementById('useful-tip').textContent = data.usefulTip;
+        document.getElementById('baby-size').textContent = `Размер малыша: ${data.babySize}`;
+        
+        // Обновляем активную неделю в календаре
+        document.querySelectorAll('.week-item').forEach(item => {
+            item.classList.remove('bg-pink-300');
+            if (parseInt(item.dataset.week) === week) {
+                item.classList.add('bg-pink-300');
+            }
+        });
+    }
+
+    // Инициализация календаря недель
+    function initWeeksCalendar() {
+        const weeksContainer = document.querySelector('.grid-cols-7');
+        
+        for (let week = 1; week <= 40; week++) {
+            const startDay = (week - 1) * 7 + 1;
+            const endDay = Math.min(week * 7, totalDays);
+            
+            const weekElement = document.createElement('div');
+            weekElement.className = 'bg-pink-100 p-3 rounded-lg text-center cursor-pointer hover:bg-pink-200 transition week-item';
+            weekElement.dataset.week = week;
+            weekElement.innerHTML = `
+                <div class="font-medium">Неделя ${week}</div>
+                <div class="text-sm text-gray-600">День ${startDay}-${endDay}</div>
+            `;
+            
+            weekElement.addEventListener('click', () => {
+                currentDay = startDay;
+                updateUI(currentDay);
+            });
+            
+            weeksContainer.appendChild(weekElement);
+        }
+    }
+
+    // Обработчики кнопок
+    document.getElementById('prev-day').addEventListener('click', () => {
+        if (currentDay > 1) {
+            currentDay--;
+            updateUI(currentDay);
+        }
+    });
+
+    document.getElementById('next-day').addEventListener('click', () => {
+        if (currentDay < totalDays) {
+            currentDay++;
+            updateUI(currentDay);
+        }
+    });
+
+    // Инициализация
+    document.addEventListener('DOMContentLoaded', () => {
+        initWeeksCalendar();
+        updateUI(currentDay);
+    });
+</script>
+
+
+  <!-- Секция "Контакты" -->
+  <section id="contact" class="container mx-auto my-10 px-4">
+    <h3 class="text-3xl font-bold text-center mb-8">Свяжитесь с нами</h3>
+    <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700 font-bold mb-2">Имя</label>
+        <input type="text" id="name" placeholder="Введите ваше имя" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-pink-500">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+        <input type="email" id="email" placeholder="Введите ваш email" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-pink-500">
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-700 font-bold mb-2">Сообщение</label>
+        <textarea id="message" rows="4" placeholder="Введите ваше сообщение" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-pink-500"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-pink-600 text-white py-2 rounded hover:bg-pink-700 transition duration-300">
+        Отправить
+      </button>
+    </form>
+  </section>
+
+  <!-- Футер -->
+  <footer class="bg-gray-800 text-white py-6 mt-10">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Поддержка Матерей. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
